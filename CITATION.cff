@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this repository and the original UCI dataset as documented in README.md."
+title: "Hydraulic Test-Rig Sensor Fusion Mini-Benchmark"
+type: software
+authors:
+  - family-names: Mohammadi
+    given-names: Taha
+repository-code: "https://github.com/tahamohamadi-ir/hydraulic-multisensor-fusion"
+license: MIT

@@ -1,0 +1,37 @@
+# Local Python environments and build artifacts
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+
+# UCI downloads and derived measurements: do not commit raw data
+data/**
+!data/
+!data/README.md
+
+# Results are unpublished until genuine UCI execution & review
+results/**
+!results/
+!results/.gitkeep
+
+# Generated binary datasets
+*.sqlite
+*.db
+*.parquet
+*.pkl
+*.joblib
